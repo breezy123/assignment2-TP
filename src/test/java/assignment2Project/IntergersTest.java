@@ -17,7 +17,7 @@ public class IntergersTest extends TestCase{
 
     int var = add.addIntegers(12,16);
     //the passed values are given and bellow is the expected answer
-    Assert.assertEquals(32,var);
+    Assert.assertEquals(28,var);
 
     }
 

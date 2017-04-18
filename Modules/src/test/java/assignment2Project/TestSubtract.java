@@ -16,6 +16,6 @@ public class TestSubtract extends TestCase{
 
     public void testSubtract(){
         float myFloat = sub.subtractValues(40,32);
-        Assert.assertEquals(7.9,myFloat);
+        Assert.assertEquals(8.0,myFloat);
     }
 }

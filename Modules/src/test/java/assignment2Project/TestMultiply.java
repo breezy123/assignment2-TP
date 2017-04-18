@@ -13,7 +13,7 @@ public class TestMultiply extends TestCase{
     Multiply multi = new Multiply();
 
     public void testMultiply(){
-        float floatVal = multi.multiplyValues(7,7);
-        Assert.assertEquals(14.8,floatVal);
+        float floatVal = multi.multiplyValues(7,1);
+        Assert.assertEquals(7.0,floatVal);
     }
 }

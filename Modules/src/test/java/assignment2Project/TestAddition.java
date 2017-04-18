@@ -15,6 +15,6 @@ public class TestAddition extends TestCase{
 
     public void testAdd(){
         int myValue = myAdd.AddValues(12,10,19);
-        Assert.assertEquals(32,myValue);
+        Assert.assertEquals(41,myValue);
     }
 }

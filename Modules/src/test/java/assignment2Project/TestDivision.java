@@ -15,6 +15,6 @@ public class TestDivision extends TestCase{
     public void testDivide(){
 
         int myAnswer =  div.divideValues(55,10);
-        Assert.assertEquals(54,myAnswer);
+        Assert.assertEquals(5,myAnswer);
     }
 }
